@@ -1,0 +1,1 @@
+export const getRating = (rating: number[]) => rating.reduce((acc, curr) => acc + curr, 0) / rating.length
